@@ -1,0 +1,31 @@
+################################################################
+#	2018-08-01
+#	Author: Jasper(rabbit.white@daum.net)
+#	FileName: accountbook.php
+#	Goal: Jasper의 IFRS 시스템 (IFRS system)
+#	Description:	
+#	1. 2018-08-01 / Japser / 일반 가계부
+#	2. 2018-08-03 / Jasper / UTF-8 한글 추가
+################################################################
+
+Options +FollowSymLinks -Indexes -MultiViews  
+RewriteEngine on  AddDefaultCharset utf8
+
+<IfModule mod_url.c>
+ ServerEncoding UTF-8
+ ClientEncoding EUC-KR
+</IfModule>
+
+#  
+# Internally rewrite shortened URL requests to de-shortened URL lookup script filepath plus query string  
+
+<IfModule mod_rewrite.c>
+
+# Bookeeping & Report (Account)
+RewriteRule ^book/crud/([A-Za-z0-9-\+]+)/?$ index.php?pageName=book&subName=$1&type=crud [NC,L,QSA]
+RewriteRule ^book/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/?$ index.php?pageName=book&subName=$1&userName=$2&startdate=$3&enddate=$4&language=$5 [NC,L,QSA]
+RewriteRule ^book/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/?$ index.php?pageName=book&subName=$1&userName=&startdate=$3&enddate=$4&language=$5 [NC,L,QSA]
+
+RewriteRule ^report/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/([A-Za-z0-9-\+]+)/?$ index.php?pageName=report&subName=$1&userName=$2&startdate=$3&enddate=$4&language=$5 [NC,L,QSA]
+
+</IfModule>

@@ -1,0 +1,223 @@
+/*
+	Created by 2018-07-10
+	File: mystyle.css
+	Author: Jasper(rabbit.white@daum.net)
+	Goal: Jasper Account의 스타일 영역 담당
+	Description:
+	2018-08-17 / Jasper / Account 스타일 개선 - #ft_information 추가
+		
+*/
+
+a:link { color: #000; text-decoration: none;}
+a:visited { color: #000; text-decoration: none;}
+a:hover { color: #000; text-decoration: underline;}
+
+body {
+  background-color:#FFF;
+}
+h1   {
+  color: blue;
+}
+h2 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h3 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h4 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+
+h5 {
+  font-family: "Nanum Gothic", sans-serif;
+}
+p{
+  font-family: "Nanum Gothic", sans-serif;
+}
+.font_write{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:10px;
+}
+.tg  {
+  width:100%;
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#aaa;
+}
+.tg td{
+  width:20%;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:12px;
+  padding:5px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-top-width:1px;
+  border-bottom-width:1px;
+  border-color:#aaa;
+  color:#333;
+  background-color:#fff;
+  text-align:center;
+}
+.tg th{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:14px;
+  font-weight:normal;
+  padding:5px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-top-width:1px;
+  border-bottom-width:1px;
+  border-color:#aaa;
+  color:#fff;
+  background-color:#f38630;
+}
+
+.tg_general  {
+  width:100%;
+  border-collapse:collapse;
+  border-spacing:0;
+  border-color:#aaa;
+}
+.tg_general td{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:12px;
+  text-align:center;
+  padding:5px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-top-width:1px;
+  border-bottom-width:1px;
+  border-color:#aaa;
+  color:#333;
+  background-color:#fff;
+}
+.tg_general th{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:14px;
+  font-weight:bold;
+  padding:5px 5px;
+  border-style:solid;
+  border-width:0px;
+  overflow:hidden;
+  word-break:normal;
+  border-top-width:1px;
+  border-bottom-width:1px;
+  border-color:#aaa;
+  color:#FFF;
+  background-color:#FF8000;
+}
+#pager {
+	list-style:none;
+	float:left;
+	display:inline;
+}
+
+#pager li {
+	float:left;
+}
+#pager li a {
+	float:left;
+	padding:4px;
+	margin-right:3px;
+	width:15px;
+	color:#000;
+	font:bold 12px tahoma;
+	border:1px solid #D8D8D8;
+	text-align:center;
+	text-decoration:none;
+}
+
+#pager .active {
+	color:#fff;
+	border:1px solid #f40;
+	background-color:#f40;
+}
+
+#pager li a:hover, #pager li a:focus {
+	color:#fff;
+	border:1px solid #f40;
+	background-color:#f40;
+}
+
+#pager_font{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:12px;
+  margin-right:10px;
+}
+
+#wrapper {
+  width:100%;
+  display: table;
+}
+
+#content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.button {
+    width:80px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight:bold;
+    background-color: #FACC2E;
+    border: none;
+    border-radius:10px 0 10px 0;
+    color:#fff;
+    padding: 10px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.report_subject{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.input_box {
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight:bold;
+  font-size:13px;
+  border:1px solid #e2e2e2;
+  width:75%;
+  height:100%;
+}
+.comment_handle_btn {
+    width:90%;
+    height:20px;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight:bold;
+    background-color: #e2e2e2;
+    border: none;
+    color:#fff;
+    margin: 3px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+  
+#ft_information{
+  	font-family: "Nanum Gothic", sans-serif;
+  	font-size:12px;
+  	color:#000000;
+}
+.time_font{
+  	font-family: "Nanum Gothic", sans-serif;
+  	font-size:12px;
+  	margin-right:10px;
+}

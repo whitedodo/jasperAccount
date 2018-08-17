@@ -5,7 +5,7 @@
 </h5>
 <hr>
 <h2 style="text-align:center;">
-<?php echo $languagePack->getMessage('report', 'fstatement', 'title'); ?>
+<?php echo $languagePack->getMessage('report', 'fstatement', 'h_title'); ?>
 </h2>
 <table style="width:100%">
   <tr>

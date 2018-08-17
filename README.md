@@ -42,3 +42,8 @@
         http://{호스트명}/book/{테이블이름}/{임의의 사용자명}/{시작일자}/{종료일자}/{언어}
         
         테이블명만 바꾸면, 다중 접속도 가능하다.(If the table name is changed, multiple connections are also available.)
+
+#### 참고(Reference)
+
+1. PHP.net, http://php.net/docs.php, Last Modified, Accessed By (Ing.)
+2. MySQL :: MySQL 5.5 Reference Manual :: 14.1 Introduction to InnoDB, https://dev.mysql.com/doc/refman/5.5/en/innodb-introduction.html, Last Modified, Accessed by (Ing.)

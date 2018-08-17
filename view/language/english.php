@@ -88,7 +88,7 @@ class Lang_English {
         );
         
         $this->msg['english']['report']['fstatement'] = Array(
-            'Title' => 'Financial Statement',
+            'h_title' => 'Financial Statement',
             'h_current' => 'Current',
             'h_unit' => 'Unit:',
             'h_subject' => 'Subject',

@@ -47,3 +47,7 @@
 
 1. PHP.net, http://php.net/docs.php, Last Modified, Accessed By (Ing.)
 2. MySQL :: MySQL 5.5 Reference Manual :: 14.1 Introduction to InnoDB, https://dev.mysql.com/doc/refman/5.5/en/innodb-introduction.html, Last Modified, Accessed by (Ing.)
+
+#### 라이선스(License)
+
+1. PHP License, https://opensource.org/licenses/PHP-3.0

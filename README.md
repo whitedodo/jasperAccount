@@ -44,7 +44,7 @@
         테이블명만 바꾸면, 다중 접속도 가능하다.(If the table name is changed, multiple connections are also available.)
 
 #### 시연(Practice)
-### 1. 190830 JasperAccount PHP, https://www.youtube.com/watch?v=9JR05rByEcY&feature=youtu.be, Accessed by 2018-08-30, Last Modified 2019-08-30.
+ 1. 190830 JasperAccount PHP, https://www.youtube.com/watch?v=9JR05rByEcY&feature=youtu.be, Accessed by 2018-08-30, Last Modified 2019-08-30.
 
 
 #### 참고(Reference)
